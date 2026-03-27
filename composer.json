@@ -1,0 +1,16 @@
+    {
+    "name": "kauevictor30/exercicio1",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Kauevictor30\\Exercicio1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kauevictor30",
+            "email": "kauephbnet@gmail.com"
+        }
+    ],
+    "require": {}
+}
