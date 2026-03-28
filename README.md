@@ -46,7 +46,9 @@ Executar scripts de teste:
 
 Bash
 php inserir-consulta.php
-💭 Agradecimentos e Reflexão
+
+
+## 💭 Agradecimentos e Reflexão
 "Nesse projeto aprendi bastante, gostaria de agradecer ao professor Luiz Lins, nesse projeto eu me senti um programador de verdade, depois de muitos projetos criados, logo este projeto foi especial. obrigado!"
 
 Autor: Kauê Victor
