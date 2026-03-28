@@ -18,9 +18,9 @@ $telefone = new Telefone("86995781666");
 
 $dataNasci = new DateTimeImmutable("2026-03-25 18:00");
 $paciente = new Paciente(
+    null,
     "027 295 463 14",
     "Kaio Pietro",
-    [$telefone, $telefone, $telefone, $telefone],
     $dataNasci
 );
 
