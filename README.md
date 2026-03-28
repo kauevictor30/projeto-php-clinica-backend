@@ -20,6 +20,7 @@ O projeto segue uma estrutura baseada em camadas, garantindo a separação entre
 
 ## 📁 Estrutura de Diretórios
 
+'''bash
 .
 ├── src/
 │   ├── Dominio/
