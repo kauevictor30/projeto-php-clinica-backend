@@ -20,7 +20,7 @@ O projeto segue uma estrutura baseada em camadas, garantindo a separação entre
 
 ## 📁 Estrutura de Diretórios
 
-```text
+'''text
 .
 ├── src/
 │   ├── Dominio/
@@ -32,27 +32,20 @@ O projeto segue uma estrutura baseada em camadas, garantindo a separação entre
 ├── vendor/                    # Dependências e Autoload do Composer
 ├── inserir-consulta.php       # Script de execução/teste
 ├── listar-consultas.php       # Script de execução/teste
-└── banco.sqlite               # Base de dados local
-🚀 Como Executar
-Instalar dependências:
+└── banco.sqlite
+'''
 
-Bash
+## 🚀 Como Executar
+**​1. Instalar dependências:**
 composer install
-Gerar Autoload:
-
-Bash
+**​2. Gerar Autoload:**
 composer dump-autoload
-Executar scripts de teste:
-
-Bash
+**​3. Executar scripts de teste:**
 php inserir-consulta.php
 
+## ​💭 Agradecimentos e Reflexão
+​"Nesse projeto aprendi bastante, gostaria de agradecer ao professor Luiz Lins, nesse projeto eu me senti um programador de verdade, depois de muitos projetos criados, logo este projeto foi especial. obrigado!"
 
-## 💭 Agradecimentos e Reflexão
-"Nesse projeto aprendi bastante, gostaria de agradecer ao professor Luiz Lins, nesse projeto eu me senti um programador de verdade, depois de muitos projetos criados, logo este projeto foi especial. obrigado!"
+​Autor: Kauê Victor
 
-Autor: Kauê Victor
-
-Instituição: UNINASSAU Parnaíba - ADS
-
-Instagram @kauevictor.dev | Behance | Website
+Instagram @kauevictor.dev | https://vksdesigner.com.br
