@@ -20,7 +20,6 @@ O projeto segue uma estrutura baseada em camadas, garantindo a separação entre
 
 ## 📁 Estrutura de Diretórios
 
-'''text
 .
 ├── src/
 │   ├── Dominio/
@@ -33,7 +32,6 @@ O projeto segue uma estrutura baseada em camadas, garantindo a separação entre
 ├── inserir-consulta.php       # Script de execução/teste
 ├── listar-consultas.php       # Script de execução/teste
 └── banco.sqlite
-'''
 
 ## 🚀 Como Executar
 **​1. Instalar dependências:**
