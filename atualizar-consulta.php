@@ -1,6 +1,5 @@
 <?php
 
-use DateTimeImmutable;
 use Kauevictor30\Exercicio1\Dominio\Modulos\Consulta;
 use Kauevictor30\Exercicio1\Dominio\Modulos\Medico;
 use Kauevictor30\Exercicio1\Dominio\Modulos\Paciente;

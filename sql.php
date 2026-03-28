@@ -17,4 +17,15 @@ $pdo->exec("
         data_nascimento TIMESTAMP,
         criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
+    
+    CREATE TABLE IF NOT EXISTS consultas (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        medico_id INTEGER,
+        paciente_id INTEGER,
+        data_hora TIMESTAMP,
+        valor DECIMAL(10, 2),
+        criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        FOREIGN KEY (medico_id) REFERENCES medicos(id),
+        FOREIGN KEY (paciente_id) REFERENCES pacientes(id)
+    );
 ");
