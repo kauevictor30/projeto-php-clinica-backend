@@ -23,15 +23,31 @@ O projeto segue uma estrutura baseada em camadas, garantindo a separação entre
 .
 ├── src/
 │   ├── Dominio/
-│   │   ├── Modulos/           # Entidades (Classes de Negócio)
-│   │   └── Repositorios/      # Interfaces (Contratos)
+│   │   ├── Modulos/
+│   │   │   ├── Consulta.php
+│   │   │   ├── Medico.php
+│   │   │   └── Paciente.php
+│   │   └── Repositorios/
+│   │       ├── RepositorioConsultaInterface.php
+│   │       ├── RepositorioMedicoInterface.php
+│   │       └── RepositorioPacienteInterface.php
 │   └── Infraestrutura/
-│       ├── Persistencia/      # Fábrica de Conexão PDO
-│       └── Repositorios/      # Implementações SQL (CRUD)
-├── vendor/                    # Dependências e Autoload do Composer
-├── inserir-consulta.php       # Script de execução/teste
-├── listar-consultas.php       # Script de execução/teste
-└── banco.sqlite
+│       ├── Persistencia/
+│       │   └── FabricaConexao.php
+│       └── Repositorios/
+│           ├── RepositorioConsulta.php
+│           ├── RepositorioMedico.php
+│           └── RepositorioPaciente.php
+├── vendor/
+├── atualizar-consulta.php
+├── banco.sqlite
+├── composer.json
+├── index.php
+├── inserir-consulta.php
+├── listar-consultas.php
+├── remover-consulta.php
+└── sql.php
+
 
 ## 🚀 Como Executar
 **​1. Instalar dependências:**
